@@ -5,15 +5,21 @@ import json
 from requests.structures import CaseInsensitiveDict
 
 @frappe.whitelist()
-def add_source_lead(vehid,token,urls):
-    # vid = "25594130"
-    vid = vehid
+def add_source_lead():
+    vid = "25594130"
+    # vid = vehid
+    doc = frappe.db.get_list('Trackpro Settings',
+    filters={
+        'name': '0bc2652ae9'
+    },
+    fields=["trackpro_url","token"],
     
+  )
     # vid = "25594130"
     vdn = "BDP-400"
     vdt = "Vehicle"
-    token = "2ea23c1f67c30ec4dbb8260c52d950b218EE1D8B77283AE5B8FD11186E19A715EF945CF1"
-    urls = "https://hst-api.wialon.com/wialon/ajax.html"
+    token = doc[0].token
+    urls = doc[0].trackpro_url
 
     url = urls+"?svc=token%2Flogin&params={%22token%22%3A%22"+token+"%22}"
     
