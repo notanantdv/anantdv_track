@@ -1,0 +1,51 @@
+{
+    "results": [
+        {
+            "datasource": {
+                "sourcename": "openstreetmap",
+                "attribution": "© OpenStreetMap contributors",
+                "license": "Open Database License",
+                "url": "https://www.openstreetmap.org/copyright"
+            },
+            "country": "Papua New Guinea",
+            "country_code": "pg",
+            "region": "Southern Region",
+            "state": "Western",
+            "city": "Kiunga",
+            "road": "Kiunga",
+            "lon": 141.2912883,
+            "lat": -6.1084121,
+            "state_code": "WPD",
+            "distance": 121.18175531399254,
+            "result_type": "city",
+            "formatted": "Kiunga, WPD, Papua New Guinea",
+            "address_line1": "Kiunga",
+            "address_line2": "WPD, Papua New Guinea",
+            "timezone": {
+                "name": "Pacific/Port_Moresby",
+                "offset_STD": "+10:00",
+                "offset_STD_seconds": 36000,
+                "offset_DST": "+10:00",
+                "offset_DST_seconds": 36000
+            },
+            "plus_code": "6R53V7RR+JG",
+            "plus_code_short": "RR+JG Kiunga, Western, Papua New Guinea",
+            "rank": {
+                "importance": 0.10000999999999993,
+                "popularity": 0.21130787887722566
+            },
+            "place_id": "51a346d73b52a961405975f6df94036f18c0f00102f901d135470d00000000c00208",
+            "bbox": {
+                "lon1": 141.2848022,
+                "lat1": -6.1114671,
+                "lon2": 141.2967387,
+                "lat2": -6.1074463
+            }
+        }
+    ],
+    "query": {
+        "lat": -6.10867,
+        "lon": 141.292963333,
+        "plus_code": "6R53V7RV+G5"
+    }
+}
