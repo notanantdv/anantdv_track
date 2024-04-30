@@ -10,7 +10,7 @@ def add_source_lead(vehid):
     vid = vehid
     doc = frappe.db.get_list('Trackpro Settings',
     filters={
-        'name': '0bc2652ae9'
+        # 'name': '0bc2652ae9'
     },
     fields=["trackpro_url","token"],
     
